@@ -1,4 +1,5 @@
-# Chatbot Deployment with Flask and JavaScript
+# Deploying yodabot with Flask and JavaScript
+This bot is based on a motivating example from 'Python Engineer' url: https://github.com/python-engineer/chatbot-deployment. I have slightly tweaked adding further 50 intents.
 
 In this tutorial we deploy the chatbot I created in [this](https://github.com/python-engineer/pytorch-chatbot) tutorial with Flask and JavaScript.
 
@@ -45,7 +46,7 @@ Now for deployment follow my tutorial to implement `app.py` and `app.js`.
 [https://youtu.be/a37BL0stIuM](https://youtu.be/a37BL0stIuM)
 
 ## Note
-In the video we implement the first approach using jinja2 templates within our Flask app. Only slight modifications are needed to run the frontend separately. I put the final frontend code for a standalone frontend application in the [standalone-frontend](/standalone-frontend) folder.
+In the video the first approach using jinja2 templates within our Flask app is used. Only slight modifications are needed to run the frontend separately. The final frontend code for a standalone frontend application is provided in the [standalone-frontend](/standalone-frontend) folder.
 
 ## Credits:
 This repo was used for the frontend code:
