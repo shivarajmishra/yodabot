@@ -9,7 +9,7 @@ CORS(app)
 app.config[ 'SECRET_KEY' ] = 'jsbcfsbfjefebw237u3gdbdc'
 socketio = SocketIO( app )
 
-@app.post("/predict")
+@app.route('/predict', methods=['POST'])
 def predict():
     text = request.get_json().get("message")
     response = get_response(text)
