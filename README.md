@@ -38,11 +38,7 @@ the following command to test it in the console.
 ```
 $ (venv) python chat.py
 ```
-
 Now for deployment follow my tutorial to implement `app.py` and `app.js`.
-
-## Note
-In the video the first approach using jinja2 templates within our Flask app is used. Only slight modifications are needed to run the frontend separately. The final frontend code for a standalone frontend application is provided in the [standalone-frontend](/standalone-frontend) folder.
 
 ## Credits:
 This repo was used for the frontend code:
