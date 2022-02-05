@@ -49,5 +49,5 @@ torch==1.9.0+cpu
 torchvision==0.10.0+cpu
 tqdm==4.46.1
 urllib3==1.25.9
-Werkzeug==1.0.1
+Werkzeug>=2.0
 wrapt==1.12.1
