@@ -9,6 +9,10 @@ CORS(app)
 app.config[ 'SECRET_KEY' ] = 'jsbcfsbfjefebw237u3gdbdc'
 socketio = SocketIO( app )
 
+@app.get("/")
+def index():
+    return render_template('base.html')
+
 @app.post("/predict")
 def predict():
     text = request.get_json().get("message")
