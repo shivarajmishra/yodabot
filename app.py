@@ -5,6 +5,9 @@ from chat import get_response
 app = Flask(__name__,template_folder='templates')
 CORS(app)
 
+app.config[ 'SECRET_KEY' ] = 'jsbcfsbfjefebw237u3gdbdc'
+socketio = SocketIO( app )
+
 @app.post("/predict")
 def predict():
     text = request.get_json().get("message")
