@@ -286,9 +286,9 @@
       "responses": ["I am a baby Yoda. I am straight out from Starwars"]
   },
   {
-      "tag": "Christine",
-      "patterns": ["do you know Christine","my name is christine"],
-      "responses": ["Nice to meet you Christine. I have heard about you alot"]
+      "tag": "Boba",
+      "patterns": ["do you know Boba Fett"],
+      "responses": ["I have heard about him alot"]
   },
   {
       "tag": "father",
